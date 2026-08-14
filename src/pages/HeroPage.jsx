@@ -323,7 +323,7 @@ const HeroPage = () => {
                     <FileText size={11} /> PDF
                   </span>
                 </span>
-                <a href="/resume.pdf" download ref={resumeBtnRef} onMouseMove={handleResumeMove} onMouseLeave={handleResumeLeave} className="hero-btn group relative inline-flex items-center gap-2 px-6 py-2.5 font-mono text-base sm:text-lg bg-[#f7f2e8] text-black border-2 border-black rounded cursor-pointer shadow-[4px_4px_0px_0px_#111936] overflow-hidden transition-shadow duration-150" download="Vishal_Dipake.pdf">
+                <a href="/Vishal_Dipake.pdf" download ref={resumeBtnRef} onMouseMove={handleResumeMove} onMouseLeave={handleResumeLeave} className="hero-btn group relative inline-flex items-center gap-2 px-6 py-2.5 font-mono text-base sm:text-lg bg-[#f7f2e8] text-black border-2 border-black rounded cursor-pointer shadow-[4px_4px_0px_0px_#111936] overflow-hidden transition-shadow duration-150" download="Vishal_Dipake.pdf">
                   <span className="absolute inset-0 -translate-x-full group-hover:translate-x-0 bg-black transition-transform duration-300 ease-out"></span>
                   <span className="relative z-10 flex items-center gap-2 group-hover:text-white transition-colors duration-300">
                     <Download ref={resumeIconRef} size={20} /> Resume
